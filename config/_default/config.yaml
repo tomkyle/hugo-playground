@@ -1,7 +1,7 @@
 baseURL: "http://example.org/"
 
 
-title: "hugotest.net"
+title: "hugotest"
 
 languageCode: "de"
 defaultContentLanguage: "de"
