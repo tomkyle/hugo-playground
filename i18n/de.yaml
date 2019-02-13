@@ -1,0 +1,12 @@
+
+# https://regisphilibert.com/blog/2018/08/hugo-multilingual-part-1-managing-content-translation/
+# https://regisphilibert.com/blog/2018/08/hugo-multilingual-part-2-i18n-string-localization/
+
+- id: hello
+  translation: "Hallo!"
+
+- id: how_are_you
+  translation: "Wie gehts?"
+
+- id: view_this_article_in
+  translation: "Dieser Artikel auf"
