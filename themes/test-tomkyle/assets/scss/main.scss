@@ -1,0 +1,37 @@
+$tomkyle-headline-color: #6a9fb5 !default;
+
+
+// Override Hyde theme's theme-base-0d color
+body[class*="theme-base"] {
+
+// …/layouts/index.html
+.posts {
+
+  .post-title {
+
+      color: $tomkyle-headline-color;
+
+      > a {
+        color: inherit;
+      }
+  }
+
+}
+
+
+}  // ^^^ END of Overidde Hyde theme's theme-base-0d color
+
+
+// test-tomkyle/layouts/_default/single.html
+.post {
+  h1 + nav {
+    float: left;
+    margin-right: 0.3rem;
+    &:after {
+      content: " · ";
+    }
+  }
+  h1 + nav + time {
+    margin-top: 0
+  }
+}
