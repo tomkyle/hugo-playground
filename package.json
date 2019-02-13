@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^9.4.7",
     "postcss-cli": "^6.1.1"
