@@ -1,6 +1,5 @@
 baseURL: "http://example.org/"
 
-
 title: "hugotest"
 
 languageCode: "de"
@@ -68,27 +67,6 @@ params:
     # googleAnalytics: Your tracking code
 
 
-sitemap:
-    changefreq: monthly
-    filename: sitemap.xml
-    priority: 0.5
-
-
-
-imaging:
-    # Default resample filter used for resizing. Default is Box,
-    # a simple and fast averaging filter appropriate for downscaling.
-    # See https://github.com/disintegration/imaging
-    resampleFilter: "lanczos"
-
-    # Default JPEG quality setting. Default is 75.
-    quality: 75
-
-    # Anchor used when cropping pictures.
-    # Default is "smart" which does Smart Cropping, using https://github.com/muesli/smartcrop
-    # Smart Cropping is content aware and tries to find the best crop for each image.
-    # Valid values are Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-    anchor: smart
 
 # -------------------------------------
 # Possibly also useful

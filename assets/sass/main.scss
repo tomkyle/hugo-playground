@@ -1,4 +1,4 @@
-$text-signal-color: #aa2616;
+$text-signal-color: #e21e79;
 
 
 // Overidde Hyde theme's theme-base-0d color
@@ -10,6 +10,7 @@ $text-signal-color: #aa2616;
 
       > a {
         color: darken( $text-signal-color, 10%);
+        color: $text-signal-color;
       }
   }
 
